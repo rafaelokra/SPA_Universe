@@ -1,0 +1,109 @@
+body{
+    width: 1280px;
+height: 720px;
+background-image: url(/pages/img/mountains-universe-1\ 1.png);
+background-repeat: no-repeat;
+background-size: cover;
+font-family: 'Inter', sans-serif;
+font-family: 'Poppins', sans-serif;
+
+}
+nav{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 50px;
+    
+}
+h1{
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+   
+   margin-top: 30vh;
+   margin-left: 45vh;
+   }
+.vector{
+    width: 50px;
+    height: 42px;
+    display: flex;
+    margin-top: 20px;
+  
+  
+}
+ul li {
+display: inline;
+margin-left: 50px;
+color: white;text-decoration: none;
+font-size: 30px;
+font-weight: bold;
+cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    transition: 1s all ease;
+}
+
+a:hover{
+color: rgb(204, 204, 19);
+
+    }
+    .buton button{
+        font-size: 14px;
+        font-weight: bold;
+        width: 200px;
+        color: white;
+      
+        top: 20px;
+        left: 20px;
+        border: none;
+        
+        background-color: transparent;
+        cursor: pointer;
+    }
+    .buton{
+        width: 200px;
+        height: 50px;
+
+        display: flex;
+        text-align: center;
+        border-radius: 10px;
+        border: 1px solid rgb(252, 252, 252);
+        color: white;
+
+        top: 53%; 
+        left: 45%;
+        position: absolute;
+}
+
+/* universo */
+.universo {
+    background-image: url(/pages/img/universo.png);
+}
+.uni {
+    width: 236px;
+    height: 60px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+
+    margin-top: 120PX;
+    margin-left: 40px;
+   
+}
+.unip {
+        display: flex;
+        width: 648px;
+        height: 203px;
+        margin-left: 50px;
+        margin-top:30px;
+
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        color: white;
+    
+}
+
